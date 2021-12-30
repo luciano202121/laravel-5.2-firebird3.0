@@ -40,6 +40,16 @@
             <div class="content">
                 <div class="title">Laravel 5</div>
             </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <form action="" method="post">
+                            {{ Form::label('nome', 'Nome 26', ['class' => 'form-control']) }}
+                            {{-- {{ Form::text($name, $value, [$options]) }} --}}
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
